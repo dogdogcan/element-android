@@ -284,7 +284,7 @@ android {
                 proguardFiles 'proguard-rules.pro'
             }
             matchingFallbacks = ['release']
-            signingConfig signingConfigs.nightly
+            signingConfig signingConfigs.debug
             firebaseAppDistribution {
                 artifactType = "APK"
                 // We upload the universal APK to fix this error:
